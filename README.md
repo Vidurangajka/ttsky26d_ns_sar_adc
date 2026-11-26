@@ -4,6 +4,13 @@
 
 - [Read the documentation for project](docs/info.md)
 
+## This project
+
+Noise-shaping SAR ADC (`tt_um_silicon_edge_ns_sar_adc`), 2x2 analog tiles, SKY130.
+Custom GDS/LEF from a Cadence Virtuoso/Innovus flow, with a 41-flop muxed-D scan chain
+(SCAN_EN / SCAN_IN / SCAN_OUT on uio[1..3]) and a P-tap guard bar around the analog blocks.
+See [docs/info.md](docs/info.md) for pinout and test instructions.
+
 ## What is Tiny Tapeout?
 
 Tiny Tapeout is an educational project that aims to make it easier and cheaper than ever to get your digital designs manufactured on a real chip.
